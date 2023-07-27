@@ -27,22 +27,8 @@ class PostAddEditViewController: UIViewController {
         } else {
             title = "New Post"
         }
-        
-        //check how this was tapped, via Cell or via + button
-        
-        //If it was cell, populate the areas with current text
-        //if not, have them empty and we can fill it
-        
-        //either way, save it when it's done.
-        
-        //If it's not new, don't save a NEW one, just UPDATE the old one
-
-        // Do any additional setup after loading the view.
-        // If it was tapped to edit, then pre-load it with the current post
     }
-//    init?(post: Post?, coder: NSCoder) {
-//        self.post = post
-//    }
+
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
